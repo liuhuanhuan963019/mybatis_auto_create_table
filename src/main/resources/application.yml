@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.196.74.203:3306/test?characterEncoding=utf8&useSSL=false&autoReconnect=true
+    username: root
+    password: 19961117lhh
+
+server:
+  port: 8080
+
+actable:
+  table:
+    auto: update
+  model:
+    pack: com.example.entity
+  database:
+    type: mysql
